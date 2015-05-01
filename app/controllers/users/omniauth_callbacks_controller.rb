@@ -1,7 +1,7 @@
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
 include ApplicationHelper
   def facebook
-    # Attempt to find the User
+ 
     @user = User.find_for_facebook_oauth(
       request.env["omniauth.auth"], 
       current_user
