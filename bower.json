@@ -1,0 +1,29 @@
+{
+  "name": "soga",
+  "version": "1.0.0",
+  "homepage": "https://github.com/patojimenez/soga",
+  "authors": [
+    "Felipe Valdivia <fe.valdiviaa@gmail.com>"
+  ],
+  "description": "testing",
+  "main": "soga",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "h"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}
